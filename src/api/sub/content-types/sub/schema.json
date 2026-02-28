@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subs",
+  "info": {
+    "singularName": "sub",
+    "pluralName": "subs",
+    "displayName": "Sub"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "from": {
+      "type": "datetime"
+    },
+    "to": {
+      "type": "datetime"
+    },
+    "key": {
+      "type": "uid",
+      "required": false
+    },
+    "userUUID": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
